@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+            rel="stylesheet">
+        <!-- /font -->
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/eb609c755d.js"
+            crossorigin="anonymous"></script>
+        <title>Title</title>
+    </head>
+    <header style="height: 80vh;
+        display: grid;
+        place-items: center;"class="real_title">
+        C.A. Learning Academy
+    </header>
+    <script src="./script/scroll.js"></script>
+    <script defer src="./script/resize.js"></script>
+    <!-- <iframe src="./HTML/courses.html" frameborder="" width="100%"></iframe> -->
+    <body>
+        <div class="header">
+            <div class="line1">
+                <span class="left" id="title">
+                    LOGO GOES HERE
+                </span>
+                <span class="left" id="address">
+                    <a href="./address.html"> <!-- THIS WILL BE A LINK TO GOOGLE MAPS-->
+                        address
+                    </a>
+                </span>
+                <span class="left" id="phone">
+                    <a href="tel:+">
+                        +91 98********
+                    </a>
+                </span>
+
+                <!-- RIGHT SIDE -->
+                <span class="right" class="timings">
+                    <i class="fa-solid fa-clock"></i>
+                    timings 10 AM - 5PM
+                </span>
+
+                <span class="right" class="social">
+                    <a href="./HTML/fBook.html">
+                        <i class="fab fa-facebook">&nbsp;</i>
+                    </a>
+                    <a href="./HTML/twit.html" id="tw">
+                        <i class="fab fa-twitter">&nbsp;</i>
+                    </a>
+                    <a href="./HTML/lkdin.html" id="li">
+                        <i class="fab fa-linkedin">&nbsp;</i>
+                    </a>
+                </span>
+                <div class="btn" id="menu">
+                    <i class="fa-solid fa-bars">
+                        m e n u
+                    </i>
+                </div>
+            </div>
+            <div class="line2">
+                <nav>
+                    <span class="navIcon">
+                        <a href="./HTML/freeTrail.html">
+                            FREE TRAIL
+                        </a>
+                    </span>
+                    <span class="navIcon">
+                        <a href="#">
+                            HOME
+                        </a>
+                    </span>
+                    <span class="navIcon">
+                        <a href="./HTML/register.html">
+                            REGISTER
+                        </a>
+                    </span>
+                    <span class="navIcon">
+                        <a href="./HTML/payments.html">
+                            PAY FEES
+                        </a>
+                    </span>
+                    <span class="navIcon">
+                        <a href="./HTML/quickLinks.html">
+                            QUICK-LINKS
+                        </a>
+                    </span>
+                </nav>
+                <script>
+                    var line2 = document.getElementsByClassName("line2");
+                    var menu = document.getElementById("menu");
+                    function hamburger () {
+                        menu.addEventListener ("click", () => {
+                            if (line2[0].style.display != "block")
+                                line2[0].style.display = "block";
+                            else line2[0].style.display = "none";
+                            console.log("hjdlks");
+                        });
+                    }
+                    hamburger ();
+                </script>
+            </div>
+        </div>
+        <section>
+            <article>
+                <div class="content">
+                    <div class="bodyNav"><nav>
+                            <!-- <h1>HERE YOU MAY LIST THE SERVICES YOU PROVIDE : -</h1> -->
+                            <span class="navIcon">service - a</span>
+                            <span class="navIcon">service - b</span>
+                            <span class="navIcon">service - c</span>
+                            <span class="navIcon">service - d</span>
+                        </nav></div>
+                    <div class="slide">
+                        <span class="image">
+                            <img src="images/p1.png" alt="">
+                        </span>
+                        <div class="description">
+                            this is sample text <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Asperiores enim fugiat sint distinctio,
+                            recusandae neque corporis tenetur officiis! Ipsa,
+                            mollitia officia! Dicta perspiciatis maxime labore
+                            quos suscipit ad totam porro.
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <span class="image">
+                            <img src="images/p2.png" alt="">
+                        </span>
+                        <div class="description">
+                            THIS IS SAMPLE TEXT <BR>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsam quisquam rem soluta quae fugit incidunt
+                            amet accusantium corporis eius, inventore aliquam
+                            commodi. Aspernatur ut laboriosam, voluptas quia
+                            incidunt nihil soluta?
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <span class="image">
+                            <img src="images/p3.png" alt="">
+                        </span>
+                        <div class="description">
+                            A
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <span class="image">
+                            <img src="images/p4.png" alt="">
+                        </span>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Inventore beatae tempore, ipsum vel blanditiis
+                            incidunt perferendis fugit consequatur numquam animi
+                            modi perspiciatis dolorem earum ipsa molestias
+                            facilis voluptate tempora facere maxime amet.
+                        </div>
+                    </div>
+                    <aside>
+
+                        <div class="extra">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.
+                            Ipsum delectus ex dolorem debitis deleniti rem
+                            tempore enim
+                            consequuntur doloremque autem voluptas, ea harum,
+                            vero
+                            beatae amet molestiae voluptatem. Nobis facere ut ab
+                            veniam
+                            expedita quod dignissimos unde cumque nihil possimus
+                            reprehenderit laborum iste magni voluptatem
+                            accusamus
+                            perspiciatis, quam deleniti ipsum? Vitae voluptas
+                            accusantium iusto quod facere, odit atque non illum
+                            minima
+                            est at consequuntur aliquam aperiam perferendis
+                            velit in
+                            fuga delectus dolore minus. Corporis iure voluptates
+                            earum
+                            debitis voluptatem, porro natus ad quibusdam a!
+                            Debitis
+                            obcaecati voluptate sed voluptatem asperiores, vero
+                            iste
+                            magnam sit ex, ea ullam sapiente cupiditate
+                            voluptas?
+                        </div>
+                    </aside>
+                    <a href="./HTML/freeTrail.html">
+                        <div class="btn" id="free-trial">
+                            Free Trail <br>
+                            book now!
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+
+                    <style>
+                    .courses {
+                        /* display: grid;
+                        place-items: center; */
+                        display: block;
+                        /* background-color: var(--color3);
+                        color: var(--color2); */
+                        width: 80%;
+                        margin: auto;
+                        margin-top: 10%;
+                        border-radius: 5rem;
+                        padding: 3%;
+
+                    }
+                    .courses h1 {
+                        text-align: center;
+                        font-size: 2rem;
+                        display: block;
+                        width: 70%;
+                        margin: auto;
+                        padding-top: 5%;
+                    }
+                    
+                    .info h1 {
+                        font-size: 1.5rem;
+                        margin-bottom: 10%;
+                    }
+
+                    .info {
+                        font-weight: bold;
+                        text-align: left;
+                        display: inline-grid;
+                        place-items: center;
+                        width: 45%;
+                        padding: 1%;
+                        margin: auto;
+                        /* margin: 5.5%; */
+                        font-size: 0.9rem;
+                    }
+
+                    /* .info:last-of-type {
+                        display: block;
+                        width: 35%;
+                        margin: auto;
+                    } */
+
+                    .info ul {
+                        font-weight: 400;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    .info li {
+                        margin-top: 5%;
+                    }
+
+                    .apply {
+                        margin-top: 10%;
+                        font-size: 1.2rem;
+                        /* width: 100%; */
+                        min-width: 7rem;
+                        padding: 6% 11%;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        .info {
+                            display: block;
+                            width: 100%;
+                            margin: auto;
+                        }
+                    }
+                </style>
+                    <div class="courses">
+                        <h1>
+                            We offer the following courses
+                        </h1>
+                        <div class="info">
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Sequi nihil repellat ipsam perspiciatis
+                            consequatur est nam consequuntur incidunt? Ducimus
+                            officia sunt repudiandae reprehenderit optio porro,
+                            commodi, eveniet similique ex corporis ipsam earum! -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+                            <a href="./HTML/register.html" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Sequi nihil repellat ipsam perspiciatis
+                        consequatur est nam consequuntur incidunt? Ducimus
+                        officia sunt repudiandae reprehenderit optio porro,
+                        commodi, eveniet similique ex corporis ipsam earum!
+                            -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+                            <a href="./HTML/register.html" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Sequi nihil repellat ipsam perspiciatis
+                        consequatur est nam consequuntur incidunt? Ducimus
+                        officia sunt repudiandae reprehenderit optio porro,
+                        commodi, eveniet similique ex corporis ipsam earum! -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+
+                            <a href="./HTML/register.html" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Sequi nihil repellat ipsam perspiciatis
+                        consequatur est nam consequuntur incidunt? Ducimus
+                        officia sunt repudiandae reprehenderit optio porro,
+                        commodi, eveniet similique ex corporis ipsam earum!
+                            -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+
+                            <a href="./HTML/register.html" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+
+                    <!-- <h1>COURSES WE OFFER</h1>
+                    <div class="info">
+                        <div class="course-img">
+                            <img src="./images/c1.jpg" alt="">
+                        </div>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Rem sequi deleniti voluptas fuga corporis
+                        voluptatum asperiores facere distinctio, doloribus
+                        exercitationem quis enim a itaque nihil molestiae eaque
+                        ab quaerat. Blanditiis, at. Ut, optio impedit.
+                    </div>
+                    <div class="info">
+                        <div class="course-img">
+                            <img src="./images/c2.jpg" alt="">
+                        </div>
+                        THIS IS SAMPLE TEXT <BR>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Doloribus odit aut, maxime quos asperiores dolorum, quis
+                        perferendis provident aliquam excepturi, incidunt nisi
+                        ratione ad. Odio iste aliquam illo, magnam recusandae
+                        ipsam voluptatem!
+                    </div>
+                    <div class="info">
+                        <div class="course-img">
+                            <img src="./images/c3.jpg" alt="">
+                        </div>
+                            <CENter>
+                                SAMPLE TEXT <BR>
+                            </CENter>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Doloribus odit aut, maxime quos asperiores dolorum,
+                            quis
+                            perferendis provident aliquam excepturi, incidunt
+                            nisi
+                            ratione ad. Odio iste aliquam illo, magnam
+                            recusandae
+                            ipsam voluptatem!
+                        </div>
+                        <div class="info">
+                            <div class="course-img">
+                                <img src="./images/c4.jpg" alt="">
+                            </div>
+                            This is Sample text; <br>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Fugiat ullam quibusdam quis fugit, voluptas,
+                            exercitationem totam eaque mollitia inventore a
+                            minima
+                            quo nihil. Sequi fuga assumenda quaerat totam
+                            cupiditate
+                            cum, nostrum consequuntur explicabo, laboriosam
+                            quos,
+                            culpa voluptas quia ut doloremque.
+                        </div>
+                    </div> -->
+                </div>
+            </article>
+            <!-- NORMALIZE THE infoBOXES -->
+            <script>
+                function noramlize () {
+                    var infoBox = document.querySelector(".info");
+                    var max_height = 0;
+                    for (var i = 0; i < infoBox.length; i++) {
+                        max_height = infoBox[i].offsetHeight > max_height ? 
+                          infoBox[i].offsetHeight 
+                        : max_height;
+                    }
+
+                    console.log ({max_height}); 
+
+                    for (var i = 0; i < infoBox.length; i++) {
+                        infoBox[i].style.height = `${max_height}px`;
+                    }
+                }
+                noramlize();
+                try {
+                    const scrollLog = setInterval (
+                        () => {
+                                // console.log ({ window.scrollY});
+                        }, 1000);
+                } catch (error) {
+                    console.log (error);
+                }
+            </script>
+        </section>
+        <a id="chatNow" href="HTML/wApp.html" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat now!
+        </a>
+        <script defer src="script/index.js"></script>
+    </body>
+    <footer>
+        <div> Feel free to contact us</div>
+        <div id="Email">
+            E-mail -
+            <a href="mailto:">
+                ****@****.com
+            </a>
+        </div>
+        <div id="tele">
+            Phone -
+            <a href="tel:+">
+                91 97832*****
+            </a>
+        </div>
+        <SMALL id="copy">
+            @copy; Copyright ## COMPANY NAME ##; <br>
+            WARNING - Any act of copying this website or its contents might
+            be
+            liable to legal action. <br>
+            Please proceed with caution
+        </SMALL>
+        <style>                   
+        .myIcon {
+            width: 200px;
+            height: 150px; 
+            overflow: hidden;
+            margin-top: -5%;
+            margin-left: 26%;
+        }
+            
+        .myIcon img {
+            border: 1px solid;
+            border-radius: 10px;
+            margin: 27px 0px 0px -100px;
+        }
+
+        .myIcon:hover {
+            opacity: 80%;
+        }
+
+        .myIcon:active {
+            opacity: 50%;
+        }
+
+        #poweredBy {
+            display: inline-block;
+            margin-left: 10%;
+        }
+        </style>
+        <div id="poweredBy">
+            Designed by - <br>
+            <a href="http://aashishsingla.great-site.net/?i=1">
+                <div class="myIcon">
+                    <img defer width="160px" id="my-icon"
+                        src="images/Aashish.png"
+                        alt="AASHISH SINGLA">
+                </div>
+            </a>
+        </div>
+    </footer>
+</html>

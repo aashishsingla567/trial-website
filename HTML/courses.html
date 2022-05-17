@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="stylesheet" href="../css/freeTrail.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/eb609c755d.js"
+            crossorigin="anonymous"></script>
+        <title>Free Trail</title>
+    </head>
+    <header>
+        <div class="line1">
+            <span class="left" id="title">
+                <a href="../index.html" style="color: var(--text_color)">
+                    title goes here
+                </a>
+            </span>
+            <span class="left" id="address">
+                <a href="address.html"> <!-- THIS WILL BE A LINK TO GOOGLE MAPS-->
+                    address
+                </a>
+            </span>
+            <span class="left" id="phone">
+                <a href="tel:+">
+                    +91 98********
+                </a>
+            </span>
+
+            <!-- RIGHT SIDE -->
+            <span class="right" class="timings">
+                <i class="fa-solid fa-clock"></i>
+                timings 10 AM - 5PM;
+            </span>
+
+            <span class="right" class="social">
+                <a href="fBook.html">
+                    <i class="fab fa-facebook">&nbsp;</i>
+                </a>
+                <a href="twit.html" id="tw">
+                    <i class="fab fa-twitter">&nbsp;</i>
+                </a>
+                <a href="lkdin.html" id="li">
+                    <i class="fab fa-linkedin">&nbsp;</i>
+                </a>
+            </span>
+            <div class="btn" id="menu">
+                <i class="fa-solid fa-bars">
+                    <!-- m e n u -->
+                </i>
+            </div>
+            <script defer>
+                var line2 = document.getElementsByClassName("line2");
+                var menu = document.getElementById("menu");
+                function hamburger () {
+                    menu.addEventListener ("click", () => {
+                        if (line2[0].style.display != "block")
+                            line2[0].style.display = "block";
+                        else line2[0].style.display = "none";
+                        console.log("hjdlks");
+                    });
+                }
+                hamburger ();
+            </script>
+        </div>
+        <div class="line2">
+            <nav>
+                <span class="navIcon">
+                    <a href="../index.html">
+                        HOME
+                    </a>
+                </span>
+                <span class="navIcon">
+                    <a href="./freeTrail.html">
+                        FREE TRAIL
+                    </a>
+                </span>
+                <span class="navIcon">
+                    <a href="./register.html">
+                        REGISTER
+                    </a>
+                </span>
+                <span class="navIcon">
+                    <a href="./payments.html">
+                        PAY FEES
+                    </a>
+                </span>
+                <span class="navIcon">
+                    <a href="./quickLinks.html">
+                        QUICK-LINKS
+                    </a>
+                </span>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <section>
+            <article>
+                <style>
+                    .courses {
+                        /* display: grid;
+                        place-items: center; */
+                        display: block;
+                        /* background-color: var(--color3);
+                        color: var(--color2); */
+                        width: 80%;
+                        margin: auto;
+                        margin-top: 10%;
+                        border-radius: 5rem;
+                        padding: 3%;
+
+                    }
+                    .courses h1 {
+                        text-align: center;
+                        font-size: 2rem;
+                        display: block;
+                        width: 70%;
+                        margin: auto;
+                        padding-top: 5%;
+                    }
+                    
+                    .info h1 {
+                        font-size: 1.5rem;
+                        margin-bottom: 10%;
+                    }
+
+                    .info {
+                        font-weight: bold;
+                        text-align: left;
+                        display: inline-block;
+                        width: 35%;
+                        margin: 3%;
+                        font-size: 0.9rem;
+                    }
+
+                    /* .info:last-of-type {
+                        display: block;
+                        width: 35%;
+                        margin: auto;
+                    } */
+
+                    .info ul {
+                        font-weight: 400;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    .info li {
+                        margin-top: 5%;
+                    }
+
+                    .apply {
+                        margin-top: 10%;
+                        font-size: 1.2rem;
+                        padding: 4% 9%;
+                    }
+
+                    @media screen and (max-width: 700px) {
+                        .info {
+                            display: block;
+                            width: 100%;
+                            margin: auto;
+                        }
+                    }
+                </style>
+                <div class="content">
+                    <div class="courses">
+                        <h1>
+                            We offer the following courses
+                        </h1>
+                        <div class="info">
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Sequi nihil repellat ipsam perspiciatis
+                                consequatur est nam consequuntur incidunt? Ducimus
+                                officia sunt repudiandae reprehenderit optio porro,
+                                commodi, eveniet similique ex corporis ipsam earum! -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+                            <a href="" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Sequi nihil repellat ipsam perspiciatis
+                            consequatur est nam consequuntur incidunt? Ducimus
+                            officia sunt repudiandae reprehenderit optio porro,
+                            commodi, eveniet similique ex corporis ipsam earum!
+                             -->
+                             <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+                            <a href="" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Sequi nihil repellat ipsam perspiciatis
+                            consequatur est nam consequuntur incidunt? Ducimus
+                            officia sunt repudiandae reprehenderit optio porro,
+                            commodi, eveniet similique ex corporis ipsam earum! -->
+                            <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+
+                            <a href="" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+
+
+
+                            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Sequi nihil repellat ipsam perspiciatis
+                            consequatur est nam consequuntur incidunt? Ducimus
+                            officia sunt repudiandae reprehenderit optio porro,
+                            commodi, eveniet similique ex corporis ipsam earum!
+                             -->
+                             <ul>
+                                <h1>
+                                    --Course name--
+                                </h1>
+                                <li>
+                                    <b>
+
+                                        Price
+                                    </b>
+                                    - $$$</li>
+                                <li>
+                                    <b>
+
+                                        Subjects
+                                    </b>
+                                    - Aaaa, Bbbb, Cccc, Dddd</li>
+                                <li>
+                                    <b>
+                                        Duration
+                                    </b>
+                                    - duration </li>
+                                <li><b>
+                                        Teachers
+                                    </b>
+                                    - teacherA, teacherB </li>
+                                <li>
+                                    <b>
+                                        BOLD STATEMENT/CLAIMs
+                                    </b>
+                                </li>
+                            </ul>
+
+                            <a href="" target="_blank" rel="noopener
+                                noreferrer">
+                                <div class="btn apply">
+                                    Apply now
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <a id="chatNow" href="wApp.html" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat now!
+        </a>
+    </body>
+    <footer>
+        <div> Feel free to contact us</div>
+        <div id="Email">
+            E-mail -
+            <a href="mailto:">
+                ****@****.com
+            </a>
+        </div>
+        <div id="tele">
+            Phone -
+            <a href="tel:+">
+                91 97832*****
+            </a>
+        </div>
+        <SMALL id="copy">
+            @copy; Copyright ## COMPANY NAME ##; <br>
+            WARNING - Any act of copying this website or its contents might be
+            liable to legal action. <br>
+            Please proceed with caution
+        </SMALL>
+        <style>                   
+            .myIcon {
+                width: 200px;
+                height: 150px; 
+                overflow: hidden;
+                margin-top: -5%;
+                margin-left: 26%;
+            }
+                
+            .myIcon img {
+                border: 1px solid;
+                border-radius: 10px;
+                margin: 27px 0px 0px -100px;
+            }
+    
+            .myIcon:hover {
+                opacity: 80%;
+            }
+    
+            .myIcon:active {
+                opacity: 50%;
+            }
+    
+            #poweredBy {
+                display: inline-block;
+                margin-left: 10%;
+            }
+            </style>
+        <div id="poweredBy">
+            Designed by - <br>
+            <a href="redirect.html">
+                <div class="myIcon">
+                    <img defer width="160px" id="my-icon"
+                        src="images/Aashish.png"
+                        alt="AASHISH SINGLA">
+                </div>
+            </a>
+        </div>
+    </footer>
+</html>
